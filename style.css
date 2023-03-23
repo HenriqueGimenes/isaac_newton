@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(224, 224, 224);
+}
+.topo,
+.timeline_text,
+.coded,
+.wikipedia{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topo{ 
+    text-align: center;
+}
+.nome{
+    margin-top: 40px;
+    font-size: 70px;
+}
+.description{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.meio{
+    display: flex;
+    justify-content: center;
+}
+.meio img{
+    margin-top: 10px;
+    width: 350px;
+    height: 450px;
+}
+.borda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 380px;
+    height: 500px;
+}
+.description_img{
+    margin:15px;
+}
+.timeline_box{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.timeline_text{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.timeline_list{
+    width: 650px;
+}
+.timeline_list ul{
+    line-height: 25px;
+}
+.frase{
+    margin-top: 80px;
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    margin: 15px auto auto auto;
+}
+
+.famosa{
+    font-size: 25px;
+    color: rgb(100, 100, 100);
+}
+.autor_frase{
+    margin-top: 20px;
+}
+.wikipedia{
+    margin-top: 50px;
+    text-align: left;
+    font-size: 30px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    margin: 35px auto 150px auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+}
+.rodape{
+    height: 80px;
+    background-color:black;
+    color: white
+}
+.rodapeint{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.coded{
+    line-height: 80px;
+    font-size: 15px;
+}
